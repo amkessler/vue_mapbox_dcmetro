@@ -4,6 +4,7 @@
       <div class="title">
         <h2>Mapbox within Vue App Test (AK)</h2>
         <h4>Metro Subway Entrances in Washington, DC Area</h4>
+        <br>
       </div>
       <div class="">
         <p>
@@ -12,10 +13,7 @@
         </p>
         <p>
           Cumque tenetur distinctio at porro voluptas, accusantium tempore animi odit fugit 
-          totam eligendi, earum cum delectus ut assumenda rerum quaerat. Quo aliquam, cumque 
-          tenetur distinctio at porro voluptas, accusantium tempore animi
-          odit fugit totam eligendi, earum cum delectus ut assumenda rerum
-          quaerat.
+          totam eligendi, earum cum delectus ut assumenda rerum quaerat. 
         </p>
       </div>
     </div>
@@ -132,7 +130,7 @@ export default {
   height: 100vh;
   width: 100vw;
   left: 0;
-  top: 0;
+  top: 10;
 
   overflow: hidden;
 }
@@ -140,10 +138,10 @@ export default {
 .left-ui {
   position: absolute;
   left: 15px;
-  top: 15px;
+  top: 125px;
 
   width: 600px;
-  height: 300px;
+  height: 250px;
 
   z-index: 10;
 }
