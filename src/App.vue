@@ -1,11 +1,19 @@
 <template>
   <div id="app">
-    <router-view />
+    <div><Navbar /></div>
+    <div><router-view /></div>
   </div>
 </template>
 
-<style lang="scss">
+<script>
+import Navbar from "./components/Navbar.vue";
 
+export default {
+  components: { Navbar },
+};
+</script>
+
+<style lang="scss">
 $color-text: #c2bfbf;
 
 body {
