@@ -1,7 +1,7 @@
 <template>
   <nav class="main-nav">
-    <router-link :to="{ name: 'home' }">SubwayMap</router-link>
-    <!-- <router-link :to="{ name: 'AddProject' }">Add a New Project</router-link> -->
+    <router-link :to="{ name: 'home' }">First Map</router-link>
+    <router-link :to="{ name: 'second' }">Second Map</router-link>
   </nav>
 </template>
 
@@ -23,8 +23,8 @@ export default {
     color: #999;
     font-size: 18px;
   }
-  a.router-link-active {
+  /* a.router-link-active {
     border-bottom: 2px solid #00ce89;
     padding-bottom: 4px;
-  }
+  } */
 </style>
